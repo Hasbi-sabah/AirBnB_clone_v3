@@ -88,7 +88,7 @@ class TestFileStorage(unittest.TestCase):
     def test_save(self):
         """Test that save properly saves objects to file.json"""
 
-    def test_file_counter(self):
+    def test_db_counter(self):
         """Test count db storage"""
         jsonData = {"name": "vatican light rainbows"}
         state = State(**jsonData)
